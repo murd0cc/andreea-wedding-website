@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+</head>
+<body>
+    <div x-data="{ language: 'en' }">
+        <a href="#" x-on:click="language = 'en'">English</a> |
+        <a href="#" x-on:click="language = 'fr'">French</a>          
+        
+      <div x-show="language === 'en'">
+        <h1>Welcome to my website!</h1>
+        <p>This is the English content.</p>
+      </div>
+    
+      <div x-show="language === 'fr'">
+        <h1>Bienvenue sur mon site web!</h1>
+        <p>Ceci est le contenu en français.</p>
+      </div>
+    </div>
+</body>
+</html>

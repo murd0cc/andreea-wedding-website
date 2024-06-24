@@ -82,8 +82,24 @@ html, body{
     width: 100%
 }
 
+#language {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 9999;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #222222ab;
+}
+
+#language a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
     }
-  }
+}
+
