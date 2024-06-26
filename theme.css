@@ -17,7 +17,13 @@ html, body{
     height: 40vh;
     margin: 0;
     padding-top: 60vh;
+    /* filter: blur(3px); */
 }
+
+/* .header h1{
+    filter:none;
+} */
+
 .heading {
     color: #ffffff;
     display: block;
